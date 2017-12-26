@@ -3,12 +3,25 @@
 namespace Tests\AppBundle\Entity;
 
 use PHPUnit\Framework\TestCase;
+use AppBundle\Entity\Dinosaur;
 
-class DinausorTest extends TestCase
+class DinosaurTest extends TestCase
 {
-    public function testThatYourComputerWorks()
-    {
-        $this->assertTrue(false);
-    }
+   public function testSettingLength()
+   {
+       $dinosaur = new Dinosaur();
+
+       $this->assertSame(0, $dinosaur->getLength());
+       $dinosaur->setLength(9);
+       $this->assertSame(9, $dinosaur->getLength());
+   }
+
+   public function testDinosaurHasNotShrunk()
+   {
+       $dinosaur = new Dinosaur();
+
+       $dinosaur->setLength(15);
+       $this->assertGreaterThan(12, $dinosaur->getLength(), 'Did you put it into the washing machine?');
+   }
 
 }
