@@ -10,6 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Dinosaur
 {
+    const LARGE = 20;
     /**
      * @ORM\Column(type="integer")
      */
@@ -54,6 +55,11 @@ class Dinosaur
     public function getGenus()
     {
         return $this->genus;
+    }
+
+    public function isCarnivorus()
+    {
+        return $this->isCarnivorous;
     }
 
 }

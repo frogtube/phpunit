@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a785344d-3471-4cbe-a38f-bfc04d3e007d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/phpunit.iml" afterPath="$PROJECT_DIR$/.idea/phpunit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/AppBundle/Entity/DinausorTest.php" afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" afterPath="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" afterPath="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DinosaurFactoryTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DinosaurFactoryTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="335">
+              <caret line="67" column="37" lean-forward="true" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
               <folding>
                 <element signature="e#43#74#0#PHP" expanded="true" />
               </folding>
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DinosaurFactory.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DinosaurFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+            <state relative-caret-position="119">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="Dinosaur.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="413">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -81,9 +81,9 @@
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/DinausorTest.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactory.php" />
-        <option value="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" />
+        <option value="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" />
       </list>
     </option>
   </component>
@@ -163,8 +163,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="866" />
-    <option name="width" value="1064" />
+    <option name="x" value="966" />
+    <option name="width" value="964" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -313,26 +313,25 @@
       <option name="presentableId" value="Default" />
       <updated>1514290456133</updated>
       <workItem from="1514290457612" duration="7280000" />
-      <workItem from="1514299773987" duration="2735000" />
+      <workItem from="1514299773987" duration="6040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10015000" />
+    <option name="totallyTimeSpent" value="13320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="866" y="0" width="1064" height="1030" extended-state="0" />
-    <editor active="true" />
+    <frame x="966" y="0" width="964" height="1030" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30555555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3139394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3139394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -416,27 +415,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="413">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="335">
+          <caret line="67" column="37" lean-forward="true" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
           <folding>
             <element signature="e#43#74#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
