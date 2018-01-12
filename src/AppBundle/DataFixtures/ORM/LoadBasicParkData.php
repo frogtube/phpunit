@@ -12,7 +12,6 @@ class LoadBasicParkData extends Fixture implements OrderedFixtureInterface
 {
     public function load(ObjectManager $manager)
     {
-        sleep(5);
         $carnivorousEnclosure = new Enclosure();
         $manager->persist($carnivorousEnclosure);
         $this->addReference('carnivorous-enclosure', $carnivorousEnclosure);
