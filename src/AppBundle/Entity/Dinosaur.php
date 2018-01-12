@@ -16,6 +16,13 @@ class Dinosaur
      * @ORM\Column(type="integer")
      */
 
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="integer")
+     */
+    private $id;
+
     private $length = 0;
     /**
      * @ORM\Column(type="string")
@@ -28,7 +35,7 @@ class Dinosaur
     private $isCarnivorous;
 
     /**
-     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Enclosure"^, inversedBy="dinosaurs")
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Enclosure", inversedBy="dinosaurs")
      */
     private $enclosure;
 
