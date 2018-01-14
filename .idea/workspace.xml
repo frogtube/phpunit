@@ -32,9 +32,11 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#811#924#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -420,12 +422,12 @@
       <workItem from="1515587000938" duration="7195000" />
       <workItem from="1515671488646" duration="951000" />
       <workItem from="1515672797335" duration="13697000" />
-      <workItem from="1515910160310" duration="5851000" />
+      <workItem from="1515910160310" duration="6381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70700000" />
+    <option name="totallyTimeSpent" value="71230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="980" height="1030" extended-state="0" />
@@ -877,9 +879,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#811#924#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
